@@ -1,0 +1,29 @@
+# Python / Entorno virtual
+.venv/
+venv/
+ENV/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Bases de Datos y Almacenamiento Local
+db.sqlite3
+media/
+staticfiles/
+
+# Variables de entorno y secretos
+.env
+*.pem
+*.p12
+
+# Logs y Cache
+*.log
+.uwsgi_plugins/
+
+# IDEs y Sistema
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
